@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="mySweetTooth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- title -->
+    <title>My Sweet tooth blog</title>
+    <link rel="icon" type="image/png" href="favicon2.png">
+    <script type="text/javascript" src="mySweetTooth.js"></script>
+</head>
+
+ <!-- body -->
+<body onload="loadAlert()" >
+<!-- navigation bar -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <ul>
+            <li class="colourNavlink"><a class="colourNavlink" href="#aboutMe">About</a></li>
+            <li class="colourNavlink"><a class="colourNavlink" href="#cakesnmore">Cakes 'n more</a></li>
+            <li class="colourNavlink"><a class="colourNavlink" href="#recipes">Recipes</a></li>
+            <li class="colourNavlink"><a class="colourNavlink" href="#contact">Contact</a></li>
+            <li class="social" href="#"><a class="social"href="#"></a> <img src="twitter.png" alt="twitter icon"> </li>
+            <li class="social" href="#"><a class="social"href="#"></a> <img src="whatsapp.png" alt="watsapp icon"> </li>
+            <li class="social" href="#"><a class="social"href="#"></a> <img src="facebook.png" alt="facebook icon"> </li>
+        </ul>
+    </nav>
+ <!-- Heading section -->   
+    <header>
+        <figure id="headingPic">
+                    <embed class="animated bounceInLeft delay-8s" src="heading4.png" alt="pink cupcake drawing" width="300">
+                </figure><h1 class="animated bounceInRight delay-8s" id='title'>My sweet tooth</h1>
+    </header>
+    
+<!-- main block -->
+    <main>
+<!-- About section -->
+        <section id="aboutMeSection">
+            <article id="aboutMe">
+                <h2>About</h2>
+                <p id="changeSize"> Hello there! Thanks for stopping by!<br>
+                    This is place where I share my love for all things sweet.
+                    <br>Many times, I don't find the exact flavours or looks of the treats
+                    that I want...so I make mine.<br>
+                    <br>See if you'll find something you like in my <a href="#recipes"> recipes</a>.
+                    <br>
+                    <b>My name is Chineme...and I have a sweet tooth!.</b></P>
+                    <button type="button" onclick="fontSize()">Increase font size</button>
+                    
+                <figure>
+                    <embed src="me.png" alt="Chineme's picture">
+                </figure>
+                <button>Like</button>
+            </article>
+        </section>
+<!-- cakes and more section -->
+        <section id="cakesnmoreSection">
+            <article id="cakesnmore">
+                <h2>Cakes,cookies and more</h2>
+                <p> What's a birthday without a cake? <br>
+                    How about weddings, baby showers, welcome home parties...? <br>You name it...
+                    A cake makes <em> any </em> occassion special.<br>
+                    <br>But then nothing beats a choc-chip cookie, a cup of something hot and a good movie...the perfect combo for a chilly night.
+                    <br>
+<!-- food's good gif -->
+                    <div class="tenor-gif-embed" data-postid="15192393" data-share-method="host" data-width="30%" data-aspect-ratio="1.0"><a href="https://tenor.com/view/food-good-hungry-yum-gif-15192393">Food Good GIF</a> from <a href="https://tenor.com/search/food-gifs">Food GIFs</a></div>
+                    <script type="text/javascript" async src="https://tenor.com/embed.js">   
+                    </script>
+                    </div>
+                    <br>
+                    Well, what are you waiting for? Check out my awesome <a href="#"> recipes </a>...Enjoy!!
+                </p>
+                <button>Like</button>
+            </article>
+        </section>
+<!-- recipe section -->
+        <section id="recipeSection">
+            
+            <article id="recipes">
+                <h2>Recipes</h2>
+                <p> Let's get baking!
+                    <ol>
+                        <li><a href="#"> Cakes and muffins</a></li>
+                        <li><a href="#"> Cookies</a></l1>
+                        <li><a href="#"> Fudges</a></li>
+                        <li><a href="#"> pies </a></li>
+                    </ol>
+                </P>
+                
+            </article>
+        </section>
+<!-- contact  form section -->
+        <section id="contactSection">
+            <article id="contact">
+                <h2>Contact</h2>
+                <p> Please leave a message</P>
+                    <!--contact form-->
+                <form onsubmit="submitAlert()"> 
+                <label>Your name here </label>
+                <input type="text" id= 'fullName' name="fullName" required> <br>
+                <label>Your email here </label>
+                <input type="email" id= 'emailAd' name="emailAd" required> <br>
+                <label>Your Message here -</label>
+                <input type="text" id='message' name="message" required=""><br>
+                <input type="submit" value="Send message">
+                </form>
+
+                <p>Or you can email me through
+                <a href="mailto:someone@example.com" style="color: Red;">chineme@mysweettooth.com</a>.
+                </p>
+                
+            </article>
+        </section>
+    </main>
+          
+</body>
+
+<!--footer-->
+<footer class="fixed-bottom">
+    <p><i><small>Acknowledgements: 
+        ***Social media icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a>
+        ***Cakes 'n more background image by<a href="https://pixabay.com/users/Einladung_zum_Essen-3625323/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1832917">Bernadette Wurzinger</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1832917">Pixabay</a>
+
+***Recipes background image by<a href="https://pixabay.com/users/giorgio9377-1760307/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1122262">giorgio giannone</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1122262">Pixabay</a>
+
+***Header cupcake Image by <a href="https://pixabay.com/users/OpenClipart-Vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=575434">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=575434">Pixabay</a>
+</i></P>
+<p id="copyright"> © Copyright 2020 Chineme Ozumba </p>
+</footer>
+</html>
